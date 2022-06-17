@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name = "viewport" content = "with=device-width, inital-scale=1.0">
+         <title> Build in HTML</title> 
+         <link rel="stylesheet" href="styles.css" /> 
+         <link rel="preconnect" href="https://fonts.googleapis.com"> 
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta charset="UTF-8" />
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class = "nav-links" id="navLinks">
+                   <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="experiences.html">Professional Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="lead.html">Leadership</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="title-page-text">
+                <h1>Hi! I'm Anjali･ﾟ✧</h1>
+                <h4>I'm a computer science major and statistics minor at Barnard College of Columbia University. I'm interested in systems programming, functional programming languages, machine learning, and computer science pedagogy.</h4>
+                <a href="#about-me" class="btn">About Me</a>
+            </div>
+            <div class="menu-links">
+
+            </div>
+        </section>
+
+        <!--about me section-->
+        <section class = "section-design" id="about-me">
+            
+            <h1>/a little bit about me</h1>
+            <h2>🎧 On Campus</h2>
+            <p>I'm currently working on a 4-year-long research project, funded by the Barbara Horowitz '55 Scholars of Distinction program, involving Indo-Fijian oral histories (motivated by my Indo-Fijian ancestry). Outside of my research, I co-organize data science related events and technical workshops as an Executive Board Member for the Columbia Data Science Society. In my free time, I enjoy arranging new pieces of music and performing with <i>Sur</i>, Columbia's South Asian a capella group.</p>
+            <h2>🛠 Technologies I'm working with:</h2>
+            <div class="tech">
+                <ul>
+                    <li>Haskell</li>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <h2>📓 Courses I've enjoyed: </h2>
+            <div class="tech">
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Calculus III</li>
+                    <li>Advanced Programming (C/Unix)</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </div>
+        </section>
+
+         <!---footer-->
+         <section class = "footer"> 
+            <div class="row">
+                <a href="https://github.com/as0501"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="http://www.linkedin.com/in/anjali-smith"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="mailto:as6467@barnard.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </section>
+         
+        <!--- javaScript for Toggle Menu --->
+        <script type="text/javascript" src="js/show-hide.js"></script>
+    </body>
+</html>

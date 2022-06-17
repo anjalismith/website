@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name = "viewport" content = "with=device-width, inital-scale=1.0">
+         <title> Build in HTML</title> 
+         <link rel="stylesheet" href="styles.css" /> 
+         <link rel="preconnect" href="https://fonts.googleapis.com"> 
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta charset="UTF-8" />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="experiences.html">Professional Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="lead.html">Leadership</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            
+        <!--leadership section-->
+        <section class = "section-design" id="lead">
+            
+            <h1>/leadership + involvement</h1>
+            <h3>💻 Columbia Data Science Society | Executive Board Member</h3>
+            <h4>Nov. 2021 – Present</h4>
+            <p>As an executive board member, I co-organize data science related events, technical workshops, and career panels for undergraduate and graduate students at Columbia. My responsibilities include marketing our events to the Columbia community, coordinating with industry professionals for our panels and workshops, designing the 2022 Datathon sponsorship packet, and pitching new event ideas at our weekly meetings. This past year, I co-led our annual Women in Data Science program connecting 20 female-identifying students with industry professionals through mentorship, a networking event, and career workshops.  </p>
+            
+            <h3>🎼 Public Relations Chair | Columbia Sur </h3>
+            <h4>Dec. 2021 – Present</h4>
+            <p>Sur is Columia's premier South Asian a capella group that performs at numerous on and off campus events. We arrange and perform fusion music to celebrate South Asian cultures and art-forms. As the Public Relations Chair, I curate social media content to promote our performances and events to the Columbia community.</p>
+            
+            <h3>📋 Student Researcher | Barbara Horowitz '55 Scholars of Distinction Program</h3>
+            <h4>Sep. 2022 – Present</h4>
+            <p>I was selected as 1 of 5 first-year students to pursue a fully-funded research project with the assistance of faculty mentorship, project development seminars, and off-campus events. My project involves the collection, analysis, and showcase of Indo-Fijian oral histories regarding the British indentured labor system in the Fiji Islands. As a descendant of Indo-Fijian indentured laborers, I hope to bring more Indo-Fijian oral histories into academic research and knowledge on indentured labor in Fiji because far too many lived experiences have been excluded from it.</p>
+        </section>
+
+        <!---footer-->
+        <section class = "footer"> 
+            <div class="row">
+                <a href="https://github.com/as0501"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="http://www.linkedin.com/in/anjali-smith"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="mailto:as6467@barnard.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </section>
+        
+        <!--- javaScript for Toggle Menu --->
+        <script type="text/javascript" src="js/show-hide.js"></script>
+    </body>
+</html>

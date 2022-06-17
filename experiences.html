@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, inital-scale=1.0">
+        <title> Build in HTML</title> 
+        <link rel="stylesheet" href="styles.css" /> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class = "nav-links" id="navLinks">
+                   <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                   <ul>
+                        <li><a href="experiences.html">Professional Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="lead.html">Leadership</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!--experiences section-->
+        <section class = "section-design" id="exp">
+            <h1>/professional experience</h1>
+            <h3>📑 Princeton University Department of Politics | Research Assistant</h3>
+            <h4>Aug. 2020 – Sep 2022</h4>
+            <div class="tech">
+                <ul>
+                    <li>Conducted research on racial attitudes in politics for Prof. LaFleur Stephens-Dougan, PhD</li>
+                    <li>Scraped 76K+ tweets using R and the Twitter API to analyze political rhetoric surrounding the NAACP versus the BLM movement on 55 Black state legislators' Twitter accounts</li>
+                    <li>Coded 40 open-ended responses from the 2016 American National Election Survey Time Series Study using a code-book of 35 codes</li>
+                </ul>
+            </div>
+            <h3>🦢 <a href="https://www.kalijewelers.com">Kali </a> | Founder/CEO </h3>
+            <h4>Jan. 2021 – Mar. 2021</h4>
+            <div class="tech">
+                 <ul>
+                    <li>Deployed an e-commerce web app to sell South-Asian jewelry to a global audience</li>
+                    <li>Amassed 28K+ site sessions and 8K+ unique visitors through SEO techniques and social media marketing                    </li>
+                    <li>Earned $11.4K in revenue</li>
+                    <li>Built an online community of 9K+ followers on TikTok and 2K monthly views on Pinterest</li>
+                </ul>
+            </div>
+            <h3>🕹 Princeton Code Ninjas | Coding Instructor</h3>
+            <h4>Nov. 2020 – Feb. 2020</h4>
+            <div class="tech">
+                <ul>
+                    <li>Organized game building sessions and taught 20+ students game development in JavaScript and Scratch through the Code Ninjas curriculum</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!---footer-->
+         <section class = "footer"> 
+            <div class="row">
+                <a href="https://github.com/as0501"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="http://www.linkedin.com/in/anjali-smith"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="mailto:as6467@barnard.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </section>
+        
+        <!--- javaScript for Toggle Menu --->
+        <script type="text/javascript" src="js/show-hide.js"></script>
+    </body>
+</html>
