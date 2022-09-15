@@ -3,13 +3,14 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.background {
-    background: rgba(174,208,235);
-    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
-}
-.background-projects{
+body{
     background: rgb(219,194,230);
     background: linear-gradient(90deg, rgba(219,194,230,1) 37%, rgba(65,177,181,1) 87%);
+    
+}
+.background-projects{
+    background: rgba(174,208,235);
+    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
     
 }
 .background-exps{
@@ -19,15 +20,9 @@
 .background-lead{
     background: rgba(174,208,235);
     background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
-}
+}  
 .header{
-    min-height:100vh;
-    width:100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 1000px;
 }
 nav{
     display: flex;
@@ -35,6 +30,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     
+}
+
+.nav-links{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+    text-align: right;
 }
 
 .nav-links ul li{
@@ -65,66 +67,53 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.title-page-text img{
-    border-radius: 50%;
-    position: absolute;
-    top: -30%;
-    left: -10%;
-    width: 9%;
-}
+
 .title-page-text{
-    width: 90%;
-    color: #fff;
     position: absolute;
-    top: 20%;
     left: 40%;
+    top: 25%;
+    right: 20%;
+    font-size: 14px;
+    color:#fff;
     text-align: left;
 }
+.title-page-text img{
+    position: absolute;
+    left: -28%;
+    top: 10%;
+    width: 25%;
+    border-radius: 50%;
+}
 .title-page-text h1{
+    color:#fff;
     font-size: 65px;
 }
 
 .description {
     position: absolute;
     left: 30%;
-    top: 33%;
+    top: 50%;
     right: 20%;
     font-size: 14px;
     color:#fff;
     text-align: left;
 }
 
-.first-line{
-    display: block;
-    
-}
-
-.btn{
-   display: inline-block;
-   text-decoration: none;
-   color: #fff;
-   border: 1px solid #fff;
-   padding: 12px 34px;
-   font-size: 10px;
-   background: transparent;
-   position: relative;
-   cursor: pointer;
-
-}
-
-.btn:hover{
-    border: 1px solid rgba(244,198,231,1);
-    background: rgba(244,198,231,1);
-    transition: 1s;
-}
-
 nav .fa{
      display: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 800px){
+    .title-page-text img{
+        width: 10%;
+        border-radius: 50%;
+    }
     .title-page-text h1{
-        font-size: 20px;
+        top: 150px;
+        left: 30px;
+        text-align: center;
+        color:#fff;
+        font-size: 35px;
     }
     .nav-links ul li{
         display: block;
@@ -159,8 +148,6 @@ nav .fa{
 .section-design{
     width: 100%;
     text-align: left;
-    padding-top: 100px;
-    padding-left: 100px;
     color: #fff;
 }
 
@@ -209,12 +196,14 @@ nav .fa{
     color: #fff;
 }
 
-/* --- footer ----*/
-.footer{
-    position: absolute;
+/* --- footer -position: absolute;
     top: 140%;
      width: 100%;
-     padding: 10px 0;
+     padding: 10px 0;---*/
+.footer{
+    width: 100%;
+    position: absolute;
+    padding: 30px 0;
 }
 
 .footer a{
@@ -225,10 +214,4 @@ nav .fa{
     justify-content: center;
     color:#fff;
     gap: 20px;
-}
-
-@media(max-width: 768px){
-   .row{
-        flex-direction: column;
-   }
 }
