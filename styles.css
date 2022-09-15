@@ -3,36 +3,40 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+.background {
+    background: rgba(174,208,235);
+    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
+}
+.background-projects{
+    background: rgb(219,194,230);
+    background: linear-gradient(90deg, rgba(219,194,230,1) 37%, rgba(65,177,181,1) 87%);
+    
+}
+.background-exps{
+    background: rgb(149,186,183);
+    background: linear-gradient(90deg, rgba(149,186,183,1) 53%, rgba(136,185,122,1) 78%);
+}
+.background-lead{
+    background: rgba(174,208,235);
+    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
+}
 .header{
     min-height:100vh;
     width:100%;
-    background-color: #ACBE97;
     background-position: center;
     background-size: cover;
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
 nav{
+    position: absolute;
+    top: -5%;
     display: flex;
-    padding: 0% 6%;
+    padding: 5% 6%;
     justify-content: space-between;
     align-items: center;
-    background-image: url("images/background.jpg");
-}
-
-nav img{
-    width: 200px;
-}
-
-nav img:hover{
-    transform: translateY(-6px);
-    transition: 1s;
-}
-
-.nav-links{
-    flex: 1;
-    text-align: right;
+    
 }
 
 .nav-links ul li{
@@ -42,7 +46,6 @@ nav img:hover{
     position: relative;
     color: #fff;
     font-size: 12px;
-    background-color:#D5B1A7;
 }
 
 .nav-links ul li a{
@@ -64,30 +67,32 @@ nav img:hover{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
+.title-page-text img{
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    width: 9%;
+}
 .title-page-text{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 40%;
     text-align: left;
 }
-
-.title-page-text img{
-    width: 10%;
-    border-radius: 50%;
-
-}
 .title-page-text h1{
-    font-size: 50px;
+    font-size: 65px;
 }
-
-.title-page-text h4{
-    margin: 10px 300px 40px 0;
+.description {
+    position: absolute;
+    left: 30%;
+    top: 33%;
+    right: 20%;
     font-size: 14px;
-    color: #fff;
+    color:#fff;
+    text-align: left;
 }
 
 .first-line{
@@ -109,8 +114,8 @@ nav img:hover{
 }
 
 .btn:hover{
-    border: 1px solid #D5B1A7;
-    background: #D5B1A7;
+    border: 1px solid rgba(244,198,231,1);
+    background: rgba(244,198,231,1);
     transition: 1s;
 }
 
@@ -127,7 +132,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background:#D5B1A7;
+        background:rgba(244,198,231,1);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -155,8 +160,8 @@ nav .fa{
 .section-design{
     width: 100%;
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
     color: #fff;
 }
 
@@ -205,29 +210,12 @@ nav .fa{
     color: #fff;
 }
 
-/*---setting background colors--*/
-
-#about-me{
-    background-color:#D5B1A7;
-}
-
-#exp {
-    background-color:#ACBE97;
-}
-
-#lead{
-    background-color:#D5B1A7;
-}
-
-#projects{
-    background-color:#ACBE97;
-}
-
 /* --- footer ----*/
 .footer{
+    position: absolute;
+    top: 140%;
      width: 100%;
      padding: 10px 0;
-     background-color:#D5B1A7;
 }
 
 .footer a{
