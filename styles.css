@@ -113,6 +113,14 @@ nav .fa{
         width: 15%;
         border-radius: 50%;
     }
+    .description {
+        position: relative;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 14px;
+        color:#fff;
+        text-align: left;
+    }
     .title-page-text h1{
         color:#fff;
         font-size: 30px;
@@ -147,7 +155,25 @@ nav .fa{
         padding: 30px;
     }
     section-design p{
-        font-size: 16px;
+        position: relative;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 14px;
+        color:#fff;
+        text-align: left;
+    }
+    .tech{
+        margin-bottom: 30px;
+        margin-top: 15px;
+        
+    }
+    
+    .tech ul li{
+        position: relative;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        margin-right: 100px;
         color: #fff;
     }
 }
