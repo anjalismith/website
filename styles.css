@@ -117,15 +117,6 @@ nav .fa{
         color:#fff;
         font-size: 30px;
     }
-    
-    .description {
-        position: relative;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 14px;
-        color:#fff;
-        text-align: left;
-    }
 
     .nav-links ul li{
         display: block;
