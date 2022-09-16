@@ -157,7 +157,7 @@ nav .fa{
     section-design p{
         position: relative;
         margin-left: 150px;
-        margin-right: 150px;
+        margin-right: 50px;
         font-size: 14px;
         color:#fff;
         text-align: left;
@@ -173,7 +173,7 @@ nav .fa{
         margin-left: 100px;
         margin-bottom: 10px;
         font-size: 14px;
-        margin-right: 100px;
+        margin-right: 50px;
         color: #fff;
     }
 }
