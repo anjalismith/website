@@ -155,6 +155,10 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    section-design p{
+        font-size: 16px;
+        color: #fff;
+    }
 }
 
 /*--------- design for all sections ------*/
