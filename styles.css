@@ -101,6 +101,7 @@ nav .fa{
 
 @media screen and (max-width: 700px){
     .title-page-text{
+        margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
         position: relative;
@@ -115,7 +116,7 @@ nav .fa{
     }
     .title-page-text h1{
         color:#fff;
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .description {
@@ -156,6 +157,8 @@ nav .fa{
         padding: 30px;
     }
     section-design p{
+        margin-left: 50px;
+        margin-right: 50px;
         font-size: 16px;
         color: #fff;
     }
