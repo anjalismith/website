@@ -101,7 +101,6 @@ nav .fa{
 
 @media screen and (max-width: 700px){
     .title-page-text{
-        margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
         position: relative;
@@ -157,8 +156,6 @@ nav .fa{
         padding: 30px;
     }
     section-design p{
-        margin-left: 50px;
-        margin-right: 50px;
         font-size: 16px;
         color: #fff;
     }
@@ -172,13 +169,18 @@ nav .fa{
 }
 
 .section-design h1{
-    margin: 10px 0 10px 50px;
+    position: relative;
+    margin-left: 30px;
     font-size: 35px;
     color: #fff;
 }
 
 .section-design p{
-    margin: 10px 300px 30px 100px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 150px;
     font-size: 16px;
     color: #fff;
 }
@@ -188,19 +190,20 @@ nav .fa{
 }
 
 .section-design h2{
-    margin: 10px 0 10px 50px;
     font-size: 30px;
     color: #fff;
 }
 
 .section-design h3{
-    margin: 10px 0 10px 50px;
+    position: relative;
+    margin-left: 50px;
     font-size: 20px;
     color: #fff;
 }
 
 .section-design h4{
-    margin: 10px 0 10px 100px;
+    position: relative;
+    margin-left: 50px;
     font-style: italic;
     font-size: 16px;
     color: #fff;
@@ -208,11 +211,16 @@ nav .fa{
 
 .tech{
     margin-bottom: 30px;
+    margin-top: 15px;
+    
 }
 
 .tech ul li{
-    margin: 10px 300px 10px 100px;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 10px;
     font-size: 14px;
+    margin-right: 300px;
     color: #fff;
 }
 
