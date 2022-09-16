@@ -1,7 +1,7 @@
 var navLinks = document.getElementById("navLinks");
 function showMenu(){
-    navLinks.style.right = "0px";
+    navLinks.style.left = "0px";
 }
 function hideMenu(){
-    navLinks.style.right = "-200px";
+    navLinks.style.left= "-200px";
 }
