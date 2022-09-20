@@ -4,22 +4,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: rgb(219,194,230);
-    background: linear-gradient(90deg, rgba(219,194,230,1) 37%, rgba(65,177,181,1) 87%);
+    background: rgb(255, 240, 245)
     
 }
 .background-projects{
-    background: rgba(174,208,235);
-    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
+   background: rgb(255, 240, 245);
     
 }
 .background-exps{
-    background: rgb(149,186,183);
-    background: linear-gradient(90deg, rgba(149,186,183,1) 53%, rgba(136,185,122,1) 78%);
+    background: rgb(255, 240, 245);
 }
 .background-lead{
-    background: rgba(174,208,235);
-    background: linear-gradient(90deg, rgba(174,208,235,1) 25%, rgba(80,167,164,1) 91%);
+    background: rgb(255, 240, 245);
 }  
 .header{
     padding-bottom: 100px;
