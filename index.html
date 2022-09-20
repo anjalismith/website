@@ -2,10 +2,11 @@
 <html>
     <head>
          <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
-         <title> About Me </title> 
+         <title> About Me</title> 
          <link rel="stylesheet" href="styles.css" /> 
          <link rel="preconnect" href="https://fonts.googleapis.com"> 
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
          <meta charset="UTF-8" />
@@ -13,11 +14,11 @@
     <body>
         <section class = "header">
             <nav>
-                
                 <div class = "nav-links" id="navLinks">
                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.html">💐About Me</a></li>
+                        <li><a href="index.html">👋Home</a></li>
+                        <li><a href="about-me.html">💐About Me</a></li>
                         <li><a href="experiences.html">👩🏻‍💻Experience</a></li>
                         <li><a href="projects.html">💭Projects</a></li>
                         <li><a href="lead.html">🍵Involvement</a></li>
@@ -25,30 +26,15 @@
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
-            
             <div class="title-page-text">
-                <img src="images/anjalismith.jpg" alt="me">
-                <h1><b>Hi, I'm Anjali!</b></h1>
-                <h4><br>I'm a <bold>computer science</bold> major and <strong>statistics</strong> minor at Barnard College of Columbia University. I'm interested in functional programming languages, programming language theory, software engineering, machine learning, and computer science pedagogy.</h4>
-            </div>
-            <div class = "description">
-                <h2><br>👩🏻‍💻 Currently...</h2>
-                <h4><br>I'm a research assistant at the Columbia University Department of Computer Science for the Sslang Project under Professor Stephen Edwards. I'm programming in <bold>Haskell, C, and Sslang</bold> to develop a compiler and language built atop of the Sparse Synchronous Model: a lightweight real-time functional programming model with deterministic concurrency. <br><br>I'm also working as a teaching assistant for COMS 3157 Advanced Programming in C for which I lead weekly office hours and recitation sessions covering the <strong>C programming language, UNIX, Bash, TCP/IP networking, operating systems</strong>, and the process of programming a <bold>dynamic web server in C</bold> for a course with 350+ students. </h4>
-                <h2><br>🍵 In my free time...</h2>
-                <h4><br>I enjoy frequenting the New York City café scene (iced oatmilk lattes forever), arranging music and performing with <i>Sur</i> (Columbia's South Asian a capella group), organizing data science related events as an Executive Board Member for the Columbia Data Science Society, and working on my Barbara Horowitz '55 Scholars of Distinction research project (fully funded by Barnard College) analyzing the 1920s Indo-Fijian labor movement that my ancestors were a part of. </h4>
-                <h2><br>💡 Technologies I'm working with...</h2>
-                <h4><br>Haskell, Java, C, R, Python, JavaScript, HTML/CSS</h4>
-                <h2><br>💭 Courses I've enjoyed...</h2>
-                <h4><br>Advanced Programming (C/Unix), Parallel Functional Programming in Haskell, Computational Linear Algebra(Python), Data Structures, Calculus III, Discrete Mathematics</h4>
-            </div>
-        </section>
-
-         <!---footer-->
-         <section class = "footer"> 
-            <div class="row">
-                <a href="https://github.com/as0501"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="http://www.linkedin.com/in/anjali-smith"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="mailto:as6467@barnard.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                
+                <h1><img src="images/anjalismith.jpg" alt="me">👋</h1>
+                <div class="row">
+                    <a href="https://github.com/as0501"><i class="fa fa-github" aria-hidden="true"> as0501</i></a>
+                    <a href="http://www.linkedin.com/in/anjali-smith"><i class="fa fa-linkedin-square" aria-hidden="true"> anjalismith</i></a>
+                    <a href="mailto:as6467@barnard.edu"><i class="fa fa-envelope" aria-hidden="true"> as6467@barnard.edu</i></a>
+                </div>
+                <p><br>Hi, I'm Anjali! I'm a Scholar of Distinction at Barnard College of Columbia University, majoring in computer science and minoring in statistics. <br><br>I'm currently exploring functional programming, open source projects, programming language theory, data science, and computer science pedagogy through my personal projects, research, leadership, and professional experience.<br><br>Thanks for giving my page a visit! Feel free to click around to learn about how I spend my time whether that be working as a Research Assistant for Professor Stephen Edwards at the Columbia University Department of Computer Science, collecting oral histories for my Scholars of Distinction research project on my Indo-Fijian heritage, or (my personal favorite) exploring the NYC coffee shop scene. </p>
             </div>
         </section>
         <!--- javaScript for Toggle Menu --->
