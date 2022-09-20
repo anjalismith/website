@@ -65,27 +65,46 @@ nav{
 }
 
 .title-page-text{
-    margin-left: 150px;
-    margin-right: 150px;
-    position: relative;
+    justify-content: center;
+    margin-top: 70px;
     font-size: 14px;
-    color:#000000;
-    text-align: left;
+    color: #000000;
 }
 .title-page-text img{
     position: relative;
     width: 15%;
+    top: 10px;
     border-radius: 50%;
 }
+.header a{
+    font-size: 15px;
+    color:black;
+}
 .title-page-text h1{
-    color:##000000;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:#000000;
     font-size: 65px;
+    text-align: center;
+}
+.title-page-text p{
+    margin-left: 300px;
+    margin-right: 300px;
+    color:#000000;
+    font-size: 16px;
+    text-align: left;
 }
 
+.description h1{
+    position: relative;
+    font-size: 35px;
+    color: #000000;
+}
 .description {
     position: relative;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
     font-size: 14px;
     color:#000000;
     text-align: left;
@@ -96,30 +115,20 @@ nav .fa{
 }
 
 @media screen and (max-width: 700px){
-    .title-page-text{
-        margin-left: 50px;
-        margin-right: 50px;
+    .title-page-text p{
         position: relative;
-        font-size: 14px;
-        color:#000000;
-        text-align: left;
-    }
-    .title-page-text img{
-        position: relative;
-        width: 15%;
-        border-radius: 50%;
-    }
-    .description {
-        position: relative;
-        margin-left: 50px;
+        margin-left: 100px;
         margin-right: 50px;
         font-size: 14px;
-        color:#000000;
+        color:black;
         text-align: left;
     }
     .title-page-text h1{
         color:#000000;
-        font-size: 30px;
+        font-size: 15px;
+    }
+    .title-page-text img{
+        width: 20%;
     }
 
     .nav-links ul li{
@@ -127,7 +136,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background:rgba(80,167,164);
+        background:white;
         height: 100vh;
         width: 200px;
         left: -200px;
@@ -140,7 +149,7 @@ nav .fa{
     nav .fa{
         padding-top: 50px;
         display: block;
-        color:white;
+        color:black;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -155,7 +164,7 @@ nav .fa{
         margin-left: 100px;
         margin-right: 50px;
         font-size: 14px;
-        color:#fff;
+        color:black;
         text-align: left;
     }
     .tech{
@@ -243,10 +252,9 @@ nav .fa{
      padding: 10px 0;---*/
 .footer{
     width: 100%;
-    position: relative;
-    padding: 30px 0;
+    position: absolute;
+    padding: 20px 0;
 }
-
 .footer a{
     color: #000000;
 }
