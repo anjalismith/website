@@ -4,18 +4,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: rgb(230, 230, 250);
+    background: #FFF0F5;
     
 }
 .background-projects{
-   background: rgb(230, 230, 250);
+   background: #FFF0F5;
     
 }
 .background-exps{
-    background: rgb(230, 230, 250);
+    background:#FFF0F5;
 }
 .background-lead{
-    background: rgb(230, 230, 250);
+    background: #FFF0F5;
 }  
 .header{
     padding-bottom: 100px;
