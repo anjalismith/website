@@ -74,6 +74,7 @@ nav{
     position: relative;
     width: 15%;
     top: 10px;
+    border-radius: 10%;
 }
 .header a{
     font-size: 15px;
