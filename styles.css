@@ -40,12 +40,12 @@ nav{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    color: #fff;
+    color: #000000;
     font-size: 12px;
 }
 
 .nav-links ul li a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 13px;
 }
@@ -54,7 +54,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background:#fff;
+    background:#000000;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -69,7 +69,7 @@ nav{
     margin-right: 150px;
     position: relative;
     font-size: 14px;
-    color:#fff;
+    color:#000000;
     text-align: left;
 }
 .title-page-text img{
@@ -87,7 +87,7 @@ nav{
     margin-left: 150px;
     margin-right: 150px;
     font-size: 14px;
-    color:#fff;
+    color:#000000;
     text-align: left;
 }
 
@@ -101,7 +101,7 @@ nav .fa{
         margin-right: 50px;
         position: relative;
         font-size: 14px;
-        color:#fff;
+        color:#000000;
         text-align: left;
     }
     .title-page-text img{
@@ -114,11 +114,11 @@ nav .fa{
         margin-left: 50px;
         margin-right: 50px;
         font-size: 14px;
-        color:#fff;
+        color:#000000;
         text-align: left;
     }
     .title-page-text h1{
-        color:#fff;
+        color:#000000;
         font-size: 30px;
     }
 
@@ -170,7 +170,7 @@ nav .fa{
         margin-bottom: 10px;
         font-size: 14px;
         margin-right: 50px;
-        color: #fff;
+        color: #000000;
     }
 }
 
@@ -178,14 +178,14 @@ nav .fa{
 .section-design{
     width: 100%;
     text-align: left;
-    color: #fff;
+    color: #000000;
 }
 
 .section-design h1{
     position: relative;
     margin-left: 30px;
     font-size: 35px;
-    color: #fff;
+    color: #000000;
 }
 
 .section-design p{
@@ -195,23 +195,23 @@ nav .fa{
     margin-bottom: 30px;
     margin-right: 150px;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
 }
 
 .section-design a{
-    color: #fff;
+    color: #000000;
 }
 
 .section-design h2{
     font-size: 30px;
-    color: #fff;
+    color: #000000;
 }
 
 .section-design h3{
     position: relative;
     margin-left: 50px;
     font-size: 20px;
-    color: #fff;
+    color: #000000;
 }
 
 .section-design h4{
@@ -219,7 +219,7 @@ nav .fa{
     margin-left: 50px;
     font-style: italic;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
 }
 
 .tech{
@@ -234,7 +234,7 @@ nav .fa{
     margin-bottom: 10px;
     font-size: 14px;
     margin-right: 300px;
-    color: #fff;
+    color: #000000;
 }
 
 /* --- footer -position: absolute;
@@ -248,11 +248,11 @@ nav .fa{
 }
 
 .footer a{
-    color: #fff;
+    color: #000000;
 }
 .row{
     display: flex;
     justify-content: center;
-    color:#fff;
+    color:#000000;
     gap: 20px;
 }
